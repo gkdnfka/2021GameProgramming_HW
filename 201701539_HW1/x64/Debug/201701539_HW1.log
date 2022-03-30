@@ -1,0 +1,9 @@
+﻿  main.cpp
+D:\2022GameProgramming_HW\201701539_HW1\main.cpp(23,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2022GameProgramming_HW\201701539_HW1\main.cpp(73,12): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2022GameProgramming_HW\201701539_HW1\main.cpp(77,32): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2022GameProgramming_HW\201701539_HW1\main.cpp(143,11): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2022GameProgramming_HW\201701539_HW1\main.cpp(150,78): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  stu.cpp
+  코드를 생성하고 있습니다...
+  201701539_HW1.vcxproj -> D:\2022GameProgramming_HW\201701539_HW1\x64\Debug\201701539_HW1.exe
