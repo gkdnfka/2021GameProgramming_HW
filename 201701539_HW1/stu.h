@@ -1,6 +1,5 @@
 #pragma once
 #include <string>
-#include <vector>
 
 typedef struct _stu {
 	std::string name;
