@@ -1,13 +1,13 @@
 ﻿  main.cpp
 D:\2022GameProgramming_HW\201701539_HW2\main.cpp(15,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\2022GameProgramming_HW\201701539_HW2\main.cpp(47,16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\2022GameProgramming_HW\201701539_HW2\main.cpp(48,16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2022GameProgramming_HW\201701539_HW2\main.cpp(50,16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2022GameProgramming_HW\201701539_HW2\main.cpp(51,16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\d2d1helper.h(78,52): warning C4838: 'Type'에서 'FLOAT'(으)로의 변환에는 축소 변환이 필요합니다.
           with
           [
               Type=LONG
           ]
-D:\2022GameProgramming_HW\201701539_HW2\main.cpp(248): message : 컴파일되는 함수 템플릿 인스턴스화 'D2D1::TypeTraits<LONG>::Point D2D1::Point2<LONG>(Type,Type)'에 대한 참조를 확인하세요.
+D:\2022GameProgramming_HW\201701539_HW2\main.cpp(251): message : 컴파일되는 함수 템플릿 인스턴스화 'D2D1::TypeTraits<LONG>::Point D2D1::Point2<LONG>(Type,Type)'에 대한 참조를 확인하세요.
           with
           [
               Type=LONG

@@ -390,7 +390,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 
 			case WM_DISPLAYCHANGE:
 			{
-				InvalidateRect(hwnd, NULL, FALSE);
+				//InvalidateRect(hwnd, NULL, FALSE);
 			}
 			result = 0;
 			wasHandled = true;
@@ -399,7 +399,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 			case WM_PAINT:
 			{
 				pDemoApp->OnRender();
-				ValidateRect(hwnd, NULL);
+				//ValidateRect(hwnd, NULL);
 			}
 			result = 0;
 			wasHandled = true;
@@ -419,7 +419,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 
 				result = 1;
 				wasHandled = true;
-				InvalidateRect(hwnd, NULL, true);
+				//InvalidateRect(hwnd, NULL, true);
 				break;
 
 			case WM_LBUTTONDOWN:
@@ -445,7 +445,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 				
 				result = 1;
 				wasHandled = true;
-				InvalidateRect(hwnd, NULL, true);
+				//InvalidateRect(hwnd, NULL, true);
 				break;
 
 			case WM_LBUTTONUP:
@@ -477,7 +477,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 
 				result = 1;
 				wasHandled = true;
-				InvalidateRect(hwnd, NULL, true);
+				//InvalidateRect(hwnd, NULL, true);
 				break;
 
 			}
